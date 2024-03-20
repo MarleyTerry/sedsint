@@ -1,0 +1,11 @@
+"name","ops","margin","percentSlower"
+"devalue",605,0.92,66.09
+"flatted",587,0.85,67.1
+"JSON",990,0.84,44.51
+"next-json",630,2.06,64.69
+"o-son",1307,1.02,26.74
+"serialize-javascript",448,1.19,74.89
+"seroval",1450,0.94,18.72
+"superjson",138,1.11,92.26
+"tosource",326,0.93,81.73
+"warp10",1784,0.57,0

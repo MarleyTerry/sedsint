@@ -1,0 +1,75 @@
+{
+  "name": "small-collection to string",
+  "date": "2023-03-21T05:59:42.899Z",
+  "version": null,
+  "results": [
+    {
+      "name": "devalue",
+      "ops": 55386,
+      "margin": 1.21,
+      "percentSlower": 76.14
+    },
+    {
+      "name": "flatted",
+      "ops": 44739,
+      "margin": 0.97,
+      "percentSlower": 80.73
+    },
+    {
+      "name": "JSON",
+      "ops": 232133,
+      "margin": 1.25,
+      "percentSlower": 0
+    },
+    {
+      "name": "next-json",
+      "ops": 64330,
+      "margin": 2.87,
+      "percentSlower": 72.29
+    },
+    {
+      "name": "o-son",
+      "ops": 103328,
+      "margin": 1.75,
+      "percentSlower": 55.49
+    },
+    {
+      "name": "serialize-javascript",
+      "ops": 114247,
+      "margin": 0.91,
+      "percentSlower": 50.78
+    },
+    {
+      "name": "seroval",
+      "ops": 171425,
+      "margin": 0.82,
+      "percentSlower": 26.15
+    },
+    {
+      "name": "superjson",
+      "ops": 43231,
+      "margin": 0.85,
+      "percentSlower": 81.38
+    },
+    {
+      "name": "tosource",
+      "ops": 111973,
+      "margin": 0.85,
+      "percentSlower": 51.76
+    },
+    {
+      "name": "warp10",
+      "ops": 176738,
+      "margin": 0.88,
+      "percentSlower": 23.86
+    }
+  ],
+  "fastest": {
+    "name": "JSON",
+    "index": 2
+  },
+  "slowest": {
+    "name": "superjson",
+    "index": 7
+  }
+}

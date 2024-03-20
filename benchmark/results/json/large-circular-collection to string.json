@@ -1,0 +1,57 @@
+{
+  "name": "large-circular-collection to string",
+  "date": "2023-03-21T05:54:33.843Z",
+  "version": null,
+  "results": [
+    {
+      "name": "devalue",
+      "ops": 593,
+      "margin": 1.09,
+      "percentSlower": 68.46
+    },
+    {
+      "name": "flatted",
+      "ops": 599,
+      "margin": 1.07,
+      "percentSlower": 68.14
+    },
+    {
+      "name": "next-json",
+      "ops": 561,
+      "margin": 2.06,
+      "percentSlower": 70.16
+    },
+    {
+      "name": "o-son",
+      "ops": 1299,
+      "margin": 0.94,
+      "percentSlower": 30.9
+    },
+    {
+      "name": "seroval",
+      "ops": 1188,
+      "margin": 1.09,
+      "percentSlower": 36.81
+    },
+    {
+      "name": "superjson",
+      "ops": 389,
+      "margin": 1.07,
+      "percentSlower": 79.31
+    },
+    {
+      "name": "warp10",
+      "ops": 1880,
+      "margin": 0.89,
+      "percentSlower": 0
+    }
+  ],
+  "fastest": {
+    "name": "warp10",
+    "index": 6
+  },
+  "slowest": {
+    "name": "superjson",
+    "index": 5
+  }
+}

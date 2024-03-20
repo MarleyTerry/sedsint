@@ -1,0 +1,57 @@
+{
+  "name": "dedupe-object to string",
+  "date": "2023-03-21T05:53:55.590Z",
+  "version": null,
+  "results": [
+    {
+      "name": "devalue",
+      "ops": 144119,
+      "margin": 0.8,
+      "percentSlower": 55.07
+    },
+    {
+      "name": "flatted",
+      "ops": 106014,
+      "margin": 0.82,
+      "percentSlower": 66.95
+    },
+    {
+      "name": "next-json",
+      "ops": 124727,
+      "margin": 1.21,
+      "percentSlower": 61.11
+    },
+    {
+      "name": "o-son",
+      "ops": 209908,
+      "margin": 1.11,
+      "percentSlower": 34.56
+    },
+    {
+      "name": "seroval",
+      "ops": 320743,
+      "margin": 0.79,
+      "percentSlower": 0
+    },
+    {
+      "name": "superjson",
+      "ops": 62189,
+      "margin": 0.93,
+      "percentSlower": 80.61
+    },
+    {
+      "name": "warp10",
+      "ops": 265708,
+      "margin": 0.91,
+      "percentSlower": 17.16
+    }
+  ],
+  "fastest": {
+    "name": "seroval",
+    "index": 4
+  },
+  "slowest": {
+    "name": "superjson",
+    "index": 5
+  }
+}

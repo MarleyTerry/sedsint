@@ -1,0 +1,21 @@
+{
+  "useWorkspaces": true,
+  "packages": [
+    "packages/*",
+    "examples/*",
+    "benchmark"
+  ],
+  "command": {
+    "version": {
+      "exact": true
+    },
+    "publish": {
+      "allowBranch": [
+        "main",
+        "next"
+      ],
+      "registry": "https://registry.npmjs.org/"
+    }
+  },
+  "version": "0.5.1"
+}
